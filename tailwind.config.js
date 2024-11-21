@@ -1,4 +1,8 @@
 const defaultTheme = require("tailwindcss/defaultTheme");
+const {
+	iconsPlugin,
+	getIconCollections,
+} = require("@egoist/tailwindcss-icons");
 
 /** @type {import('tailwindcss').Config} */
 module.exports = {
@@ -31,6 +35,7 @@ module.exports = {
 			fontFamily: {
 				sans: ["var(--font-inter)", ...defaultTheme.fontFamily.sans],
 				display: ["var(--font-calsans)"],
+				display2: ["var(--font-jpsans)"],
 			},
 			backgroundImage: {
 				"gradient-radial":
@@ -107,5 +112,6 @@ module.exports = {
 	plugins: [
 		require("@tailwindcss/typography"),
 		require("tailwindcss-debug-screens"),
+		iconsPlugin({ collections: getIconCollections(["lucide", "catppuccin", "simple-icons"]), }),
 	],
 };

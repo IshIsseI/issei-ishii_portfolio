@@ -4,26 +4,27 @@ import LocalFont from "@next/font/local";
 import { Metadata } from "next";
 import { Analytics } from "./components/analytics";
 
+const siteUrl = process.env.NEXT_PUBLIC_SITE_URL || "http://localhost:3000";
+
 export const metadata: Metadata = {
   title: {
-    default: "chronark.com",
-    template: "%s | chronark.com",
+    default: "ISSEI ISHII",
+    template: "Issei Ishii",
   },
-  description: "Co-founder of unkey.dev and founder of planetfall.io",
+  description: "石井一成のポートフォリオ",
   openGraph: {
-    title: "chronark.com",
-    description:
-      "Co-founder of unkey.dev and founder of planetfall.io",
-    url: "https://chronark.com",
-    siteName: "chronark.com",
+    title: "ISSEI ISHII",
+    description: "石井一成のポートフォリオ",
+    url: siteUrl,
+    siteName: "ISSEI ISHII",
     images: [
       {
-        url: "https://chronark.com/og.png",
+        url: `${siteUrl}/og.png`,
         width: 1920,
         height: 1080,
       },
     ],
-    locale: "en-US",
+    locale: "ja-JP",
     type: "website",
   },
   robots: {
@@ -37,14 +38,13 @@ export const metadata: Metadata = {
       "max-snippet": -1,
     },
   },
-  twitter: {
-    title: "Chronark",
-    card: "summary_large_image",
-  },
   icons: {
-    shortcut: "/favicon.png",
+    shortcut: "/issei2.png",
+    icon: "/issei2.png",
+    apple: "/issei2.png",
   },
 };
+
 const inter = Inter({
   subsets: ["latin"],
   variable: "--font-inter",
@@ -55,19 +55,23 @@ const calSans = LocalFont({
   variable: "--font-calsans",
 });
 
+const JPSans = LocalFont({
+  src: "../public/fonts/NotoSansJP-SemiBold.ttf",
+  variable: "--font-jpsans",
+})
+
 export default function RootLayout({
   children,
 }: {
   children: React.ReactNode;
 }) {
   return (
-    <html lang="en" className={[inter.variable, calSans.variable].join(" ")}>
+    <html lang="ja" className={[inter.variable, calSans.variable, JPSans.variable].join(" ")}>
       <head>
         <Analytics />
       </head>
       <body
-        className={`bg-black ${process.env.NODE_ENV === "development" ? "debug-screens" : undefined
-          }`}
+        className={`bg-black ${process.env.NODE_ENV === "development" ? "debug-screens" : undefined}`}
       >
         {children}
       </body>
