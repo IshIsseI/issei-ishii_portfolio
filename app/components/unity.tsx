@@ -48,7 +48,8 @@ const UnityGame: React.FC = () => {
       <canvas
         id="unity-canvas"
         style={{
-          width:540, height:960,
+          width: "100%",
+          height:"80%",
           display: "block",
         }}
       />
