@@ -45,6 +45,8 @@ export default function Example() {
                 <div className="grid grid-cols-1 gap-8 mx-auto lg:grid-cols-1">
                     <h2 className="font-bold tracking-tight text-zinc-100 sm:text-xl">ゲーム内画像</h2>
                     <div className="grid grid-cols-1 gap-8 lg:grid-cols-2">
+                        <p className="mt-4 text-zinc-400">スタート画面</p>
+                        <p className="mt-4 text-zinc-400">マップセレクト画面</p>
                         <Image
                             src="/images/takeshi1.png"
                             alt="たけしのタコス屋さんのゲーム画面"
@@ -59,6 +61,8 @@ export default function Example() {
                             height={600} // 画像の高さ
                             className="rounded-lg"
                         />
+                        <p className="mt-4 text-zinc-400">フィールド画面</p>
+                        <p className="mt-4 text-zinc-400">バトル画面</p>
                         <Image
                             src="/images/takeshi3.png"
                             alt="たけしのタコス屋さんのゲーム画面"

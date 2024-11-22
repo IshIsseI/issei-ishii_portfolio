@@ -25,6 +25,28 @@ export default async function ProjectsPage() {
         <div className="w-full h-px bg-zinc-800" />
 
         <div className="grid grid-cols-1 gap-8 mx-auto lg:grid-cols-2 ">
+        <Card>
+            <Link href="../puzzle">
+              <article className="relative w-full h-full p-4 md:p-8">
+
+                <h2
+                  id="featured-post"
+                  className="mt-4 text-2xl font-bold text-zinc-100 group-hover:text-white sm:text-3xl font-display2"
+                >
+                  けいさんパズル
+                </h2>
+                <p className="inline-flex items-center mt-4 leading-8 duration-150 text-zinc-400 group-hover:text-zinc-300">
+                  <span className="i-catppuccin-unity w-6 h-6 mr-5"></span>
+                  Unity Game
+                </p>
+
+                <p className="hidden text-zinc-200 hover:text-zinc-50 lg:block mt-3">
+                  Read more <span aria-hidden="true">&rarr;</span>
+                </p>
+              </article>
+            </Link>
+          </Card>
+
           <Card>
             <Link href="../takeshi">
               <article className="relative w-full h-full p-4 md:p-8">

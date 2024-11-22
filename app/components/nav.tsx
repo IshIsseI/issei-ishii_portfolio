@@ -47,11 +47,11 @@ export const Navigation: React.FC = () => {
 						className="duration-200 text-zinc-300 hover:text-zinc-100"
 					>
 						<Image
-							src="/issei3.png" // public/images/arrow-left.png に配置
+							src="/issei3.png"
 							alt="Back to Home"
-							width={40} // アイコンの幅
-							height={40} // アイコンの高さ
-							className="hover:opacity-80" // ホバー時のエフェクト (例: 不透明度を下げる)
+							width={40}
+							height={40}
+							className="hover:opacity-80"
 						/>
 					</Link>
 				</div>
