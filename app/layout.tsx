@@ -1,6 +1,6 @@
 import "../global.css";
-import { Inter } from "@next/font/google";
-import LocalFont from "@next/font/local";
+import { Inter } from "next/font/google";
+import LocalFont from "next/font/local";
 import { Metadata } from "next";
 import { Analytics } from "./components/analytics";
 
@@ -12,6 +12,7 @@ export const metadata: Metadata = {
     template: "Issei Ishii",
   },
   description: "石井一成のポートフォリオ",
+  metadataBase: new URL(siteUrl),
   openGraph: {
     title: "ISSEI ISHII",
     description: "石井一成のポートフォリオ",

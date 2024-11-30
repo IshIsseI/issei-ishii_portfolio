@@ -14,11 +14,11 @@ export default function Home() {
       <div className="absolute top-10 left-10">
         <Link href="/">
           <Image
-            src="/issei3.png" // public/images/icon.png にアイコン画像を配置
+            src="/issei3.png"
             alt="Home Icon"
-            width={40} // アイコンの幅
-            height={40} // アイコンの高さ
-            className="hover:opacity-80" // ホバーエフェクト
+            width={40}
+            height={40}
+            className="hover:opacity-80"
           />
         </Link>
       </div>

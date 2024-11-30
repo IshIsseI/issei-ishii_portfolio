@@ -32,20 +32,20 @@ export default function Example() {
 				<div className="max-w-2xl mx-auto lg:mx-0">
 					<p className="mt-4 mb-5 text-zinc-200">Name.</p>
 					<h2 className="text-2xl font-bold tracking-tight text-zinc-100 sm:text-3xl font-display2">石井一成</h2>
-					<p className="mt-2 text-zinc-400">Ishii Issei</p>
+					<p className="mt-2 text-zinc-300">Ishii Issei</p>
 				</div>
 				<div className="w-full h-px bg-zinc-800" />
 
 				<div className="max-w-2xl mx-auto lg:mx-0">
 					<p className="mt-4 mb-5 text-zinc-200">Affiliation.</p>
 					<h2 className="text-xl font-bold tracking-tight text-zinc-100 sm:text-3xl font-display2">茨城工業高等専門学校 情報系</h2>
-					<p className="mt-2 text-zinc-400">NITIC Information</p>
+					<p className="mt-2 text-zinc-300">NITIC Information</p>
 				</div>
 				<div className="w-full h-px bg-zinc-800" />
 
 				<div className="max-w-4xl mx-auto lg:mx-0">
 					<p className="mt-4 mb-5 text-zinc-200">Skill.</p>
-					<h2 className="text-xl font-bold tracking-tight text-zinc-100 sm:text-2xl">C / C# / Unity / Typescript / Python / Illustrator / Photoshop / PremirePro</h2>
+					<h2 className="text-xl font-bold tracking-tight text-zinc-100 sm:text-2xl">C / C# / Unity / Typescript / Python / Illustrator / Photoshop / PremirePro / SOLIDWORKS / Fusion360</h2>
 					<span className="i-catppuccin-c w-7 h-7 mr-2 mt-5"></span>/
 					<span className="i-catppuccin-csharp w-7 h-7 mr-2"></span>/
 					<span className="i-catppuccin-unity w-7 h-7 mr-2"></span>/
@@ -77,7 +77,7 @@ export default function Example() {
 										<span className="lg:text-xl font-medium duration-150 xl:text-3xl text-zinc-200 group-hover:text-white font-display">
 											{s.handle}
 										</span>
-										<span className="mt-4 text-sm text-center duration-1000 text-zinc-400 group-hover:text-zinc-200">
+										<span className="mt-4 text-sm text-center duration-1000 text-zinc-300 group-hover:text-zinc-200">
 											{s.label}
 										</span>
 									</div>

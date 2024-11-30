@@ -14,9 +14,9 @@ export default function Example() {
                         quantity={100}
                     />
                     <h2 className="text-3xl font-bold tracking-tight text-zinc-100 sm:text-4xl font-display2 mt-10">
-                        初めての電気 × プログラミング
+                        neoわくわくクラブ
                     </h2>
-                    <p className="inline-flex items-center mt-4 text-zinc-400"><span className="i-catppuccin-adobe-ai w-7 h-7 mr-3"></span>
+                    <p className="inline-flex items-center mt-4 text-zinc-300"><span className="i-catppuccin-adobe-ai w-7 h-7 mr-3"></span>
                         Design
                     </p>
                 </div>
@@ -24,7 +24,7 @@ export default function Example() {
 
                 <div className="grid grid-cols-1 gap-8 mx-auto lg:grid-cols-1 ">
                     <h2 className="font-bold tracking-tight text-zinc-100 sm:text-xl">使用技術</h2>
-                    <p className="mt-4 text-zinc-400">Adobe Illustrator, Photoshop</p>
+                    <p className="mt-4 text-zinc-300">Adobe Illustrator, Photoshop</p>
                     <div>
                         <span className="i-catppuccin-adobe-ai w-7 h-7"></span>/
                         <span className="i-catppuccin-adobe-ps w-7 h-7"></span>
@@ -34,19 +34,28 @@ export default function Example() {
 
                 <div className="grid grid-cols-1 gap-8 mx-auto lg:grid-cols-1 ">
                     <h2 className="font-bold tracking-tight text-zinc-100 sm:text-xl">概要</h2>
-                    <p className="mt-4 text-zinc-400">低学年，初心者のための教室で簡単な電気やプログラミングを学べます．</p>
-                    <p className="mt-4 text-zinc-400">フライヤーのデザインを担当．企画や運営も担当．</p>
+                    <p className="mt-4 text-zinc-300">低学年，初心者のための教室を開き簡単な電気やプログラミングを学べるクラブです．</p>
+                    <p className="mt-4 text-zinc-300">ロゴやフライヤーのデザインを担当．企画や運営も担当．</p>
                 </div>
                 <div className="hidden w-full h-px md:block bg-zinc-800" />
 
                 <div className="grid grid-cols-1 gap-8 mx-auto lg:grid-cols-1">
                     <h2 className="font-bold tracking-tight text-zinc-100 sm:text-xl">デザイン</h2>
                     <div className="grid grid-cols-1 gap-8 lg:grid-cols-2">
+                    <p className="mt-4 text-zinc-300">ロゴ</p>
+                    <p className="mt-4 text-zinc-300">フライヤーデザイン</p>
+                        <Image
+                            src="/images/NEOLOGO.png"
+                            alt="初めての電気プログラミング"
+                            width={600}
+                            height={600}
+                            className="rounded-lg"
+                        />
                         <Image
                             src="/images/denki1.png"
                             alt="初めての電気プログラミング"
-                            width={600} // 画像の幅
-                            height={600} // 画像の高さ
+                            width={600}
+                            height={600}
                             className="rounded-lg"
                         />
                     </div>

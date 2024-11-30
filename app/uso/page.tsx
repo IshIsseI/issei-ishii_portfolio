@@ -16,7 +16,7 @@ export default function Example() {
                     <h2 className="text-3xl font-bold tracking-tight text-zinc-100 sm:text-4xl font-display2 mt-10">
                         嘘七不思議ツアー
                     </h2>
-                    <p className="inline-flex items-center mt-4 text-zinc-400"><span className="i-catppuccin-adobe-ai w-7 h-7 mr-3"></span>
+                    <p className="inline-flex items-center mt-4 text-zinc-300"><span className="i-catppuccin-adobe-ai w-7 h-7 mr-3"></span>
                         Design
                     </p>
                 </div>
@@ -24,7 +24,7 @@ export default function Example() {
 
                 <div className="grid grid-cols-1 gap-8 mx-auto lg:grid-cols-1 ">
                     <h2 className="font-bold tracking-tight text-zinc-100 sm:text-xl">使用技術</h2>
-                    <p className="mt-4 text-zinc-400">Adobe Illustrator, Photoshop, Premire Pro</p>
+                    <p className="mt-4 text-zinc-300">Adobe Illustrator, Photoshop, Premire Pro</p>
                     <div>
                         <span className="i-catppuccin-adobe-ai w-7 h-7"></span>/
                         <span className="i-catppuccin-adobe-ps w-7 h-7"></span>
@@ -34,11 +34,31 @@ export default function Example() {
 
                 <div className="grid grid-cols-1 gap-8 mx-auto lg:grid-cols-1 ">
                     <h2 className="font-bold tracking-tight text-zinc-100 sm:text-xl">概要</h2>
-                    <p className="mt-4 text-zinc-400">茨城高専の文化祭である「茨香祭」で行った「嘘七不思議ツアー」</p>
-                    <p className="mt-4 text-zinc-400">茨城高専の七不思議(嘘)をツアー形式で紹介した．</p>
-                    <p className="mt-4 text-zinc-400">フライヤーやパンフレットなどのデザインを担当．</p>
+                    <p className="mt-4 text-zinc-300">茨城高専の文化祭「茨香祭」で、虚言愛好会というサークルが主催した出し物です。</p>
+                    <p className="mt-4 text-zinc-300">学校内を巡るツアー形式で、建物や施設にまつわる「七不思議」を紹介しますが、その内容はすべて嘘です。</p>
+                    <p className="mt-4 text-zinc-300">茨香祭当日のツアーは、多くの人に来ていただきました。</p>
                 </div>
                 <div className="hidden w-full h-px md:block bg-zinc-800" />
+
+                <div className="grid grid-cols-1 gap-8 mx-auto lg:grid-cols-1 ">
+                    <h2 className="font-bold tracking-tight text-zinc-100 sm:text-xl">役割</h2>
+                    <p className="mt-4 text-zinc-300">チーム人数は12人</p>
+                    <p className="mt-4 text-zinc-300">ほぼ全てのデザインを担当</p>
+                    <p className="mt-4 text-zinc-300 ">ロゴデザイン: サークルロゴおよび「嘘七不思議ツアー」のロゴを作成。</p>
+                    <p className="mt-4 text-zinc-300 ">フライヤーとパンフレット:ツアーの宣伝用資料と案内用パンフレットをデザイン。</p>
+                    <p className="mt-4 text-zinc-300 ">リストバンド: 参加者がツアー中に身につけるリストバンドを制作。</p>
+                    <p className="mt-4 text-zinc-300 ">物販グッズ: 「嘘認定証」というグッズをデザイン。</p>
+                    <p className="mt-4 text-zinc-300 ">解説動画: ツアーの解説で使用する映像をPremiere Proで編集。</p>
+                </div>
+                <div className="hidden w-full h-px md:block bg-zinc-800" />
+
+                <div className="grid grid-cols-1 gap-8 mx-auto lg:grid-cols-1 ">
+                    <h2 className="font-bold tracking-tight text-zinc-100 sm:text-xl">工夫したポイント</h2>
+                    <p className="mt-4 text-zinc-300">全てのデザインに統一したカラーコードなどを採用し、「嘘七不思議ツアー」の世界観を強調しました。</p>
+                    <p className="mt-4 text-zinc-300">実際のツアーのようにパンフレットやリストバンドを制作した。</p>
+                </div>
+                <div className="hidden w-full h-px md:block bg-zinc-800" />
+
 
                 <div className="grid grid-cols-1 gap-8 mx-auto lg:grid-cols-1">
                     <h2 className="font-bold tracking-tight text-zinc-100 sm:text-xl">デザイン</h2>
@@ -46,22 +66,22 @@ export default function Example() {
                         <Image
                             src="/images/uso1.png"
                             alt="嘘七不思議ツアー"
-                            width={600} // 画像の幅
-                            height={600} // 画像の高さ
+                            width={600}
+                            height={600}
                             className="rounded-lg"
                         />
                         <Image
                             src="/images/uso7.png"
                             alt="嘘七不思議ツアー"
-                            width={600} // 画像の幅
-                            height={600} // 画像の高さ
+                            width={600}
+                            height={600}
                             className="rounded-lg"
                         />
                         <Image
                             src="/images/uso2.png"
                             alt="嘘七不思議ツアー"
-                            width={600} // 画像の幅
-                            height={600} // 画像の高さ
+                            width={600}
+                            height={600}
                             className="rounded-lg bg-white"
                         />
                         <video
@@ -74,15 +94,15 @@ export default function Example() {
                         <Image
                             src="/images/uso3.png"
                             alt="嘘七不思議ツアー"
-                            width={600} // 画像の幅
-                            height={600} // 画像の高さ
+                            width={600}
+                            height={600}
                             className="rounded-lg bg-white"
                         />
                         <Image
                             src="/images/uso4.png"
                             alt="嘘七不思議ツアー"
-                            width={600} // 画像の幅
-                            height={600} // 画像の高さ
+                            width={600}
+                            height={600}
                             className="rounded-lg"
                         />
                     </div>
