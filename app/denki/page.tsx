@@ -42,22 +42,46 @@ export default function Example() {
                 <div className="grid grid-cols-1 gap-8 mx-auto lg:grid-cols-1">
                     <h2 className="font-bold tracking-tight text-zinc-100 sm:text-xl">デザイン</h2>
                     <div className="grid grid-cols-1 gap-8 lg:grid-cols-2">
-                    <p className="mt-4 text-zinc-300">ロゴ</p>
-                    <p className="mt-4 text-zinc-300">フライヤーデザイン</p>
-                        <Image
-                            src="/images/NEOLOGO.png"
-                            alt="初めての電気プログラミング"
-                            width={600}
-                            height={600}
-                            className="rounded-lg"
-                        />
-                        <Image
-                            src="/images/denki1.png"
-                            alt="初めての電気プログラミング"
-                            width={600}
-                            height={600}
-                            className="rounded-lg"
-                        />
+                        <figure>
+                            <Image
+                                src="/images/NEOLOGO.png"
+                                alt="neo"
+                                width={600}
+                                height={600}
+                                className="rounded-lg"
+                            />
+                            <figcaption className="mt-2 text-sm text-zinc-300">ロゴデザイン</figcaption>
+                        </figure>
+                        <figure>
+                            <Image
+                                src="/images/denki1.png"
+                                alt="neo"
+                                width={600}
+                                height={600}
+                                className="rounded-lg"
+                            />
+                            <figcaption className="mt-2 text-sm text-zinc-300">フライヤーデザイン</figcaption>
+                        </figure>
+                        <figure>
+                            <Image
+                                src="/images/denki2.png"
+                                alt="neo"
+                                width={600}
+                                height={600}
+                                className="rounded-lg"
+                            />
+                            <figcaption className="mt-2 text-sm text-zinc-300">フライヤーデザイン</figcaption>
+                        </figure>
+                        <figure>
+                            <Image
+                                src="/images/denki3.png"
+                                alt="neo"
+                                width={600}
+                                height={600}
+                                className="rounded-lg"
+                            />
+                            <figcaption className="mt-2 text-sm text-zinc-300">フライヤーデザイン</figcaption>
+                        </figure>
                     </div>
                 </div>
                 <div className="hidden w-full h-px md:block bg-zinc-800" />
